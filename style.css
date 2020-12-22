@@ -1,0 +1,21 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+#clim,
+#lumière {
+	display: flex;
+}
+
+a {
+	width: 64px;
+	height: 64px;
+	border-radius: 32px;
+	margin: 10px;
+}
+
+.material-icons.md-64 {
+	font-size: 32px;
+}
