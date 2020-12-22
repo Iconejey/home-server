@@ -1,0 +1,31 @@
+{
+	"name": "home-server",
+	"version": "0.0.1",
+	"description": "Hove server for domotics via web pages / requests",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"mon": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Iconejey/home-server.git"
+	},
+	"keywords": [
+		"server",
+		"home",
+		"web",
+		"node",
+		"js"
+	],
+	"author": "Nicolas Gouwy",
+	"license": "UNLICENCED",
+	"bugs": {
+		"url": "https://github.com/Iconejey/home-server/issues"
+	},
+	"homepage": "https://github.com/Iconejey/home-server#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"nodemon": "^2.0.6"
+	}
+}
